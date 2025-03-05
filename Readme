@@ -1,1 +1,73 @@
+# Heart Disease Prediction
 
+## Overview
+This project aims to predict the likelihood of heart disease in patients using machine learning techniques. It utilizes a dataset containing various health-related parameters and applies classification algorithms to determine the presence of heart disease.
+
+## Features
+- Data preprocessing and cleaning.
+- Feature selection and engineering.
+- Application of machine learning models.
+- Model evaluation using accuracy and other metrics.
+
+## Technologies Used
+- Python
+- NumPy
+- Pandas
+- Matplotlib & Seaborn (for visualization)
+- Scikit-learn (sklearn)
+
+## Dataset
+The dataset contains multiple features such as:
+- `age`: Age of the patient.
+- `sex`: Gender of the patient.
+- `cp`: Chest pain type.
+- `trestbps`: Resting blood pressure.
+- `chol`: Cholesterol level.
+- `fbs`: Fasting blood sugar.
+- `restecg`: Resting electrocardiographic results.
+- `thalach`: Maximum heart rate achieved.
+- `exang`: Exercise-induced angina.
+- `oldpeak`: ST depression induced by exercise.
+- `slope`: Slope of the peak exercise ST segment.
+- `ca`: Number of major vessels colored by fluoroscopy.
+- `thal`: Thalassemia result.
+- `target`: 1 (Presence of heart disease), 0 (No heart disease).
+
+## Installation
+### Prerequisites
+Ensure you have Python installed along with the necessary libraries:
+```bash
+pip install numpy pandas matplotlib seaborn scikit-learn
+```
+
+## Usage
+1. Clone the repository:
+```bash
+git clone https://github.com/your-username/heart-disease-prediction.git
+cd heart-disease-prediction
+```
+2. Place the dataset (`heart.csv`) in the project directory.
+3. Run the script:
+```bash
+python heart_disease_prediction.py
+```
+4. The model will train and evaluate performance, displaying metrics and visualizations.
+
+## Model Training & Evaluation
+- The dataset is split into training (80%) and testing (20%).
+- Machine learning algorithms such as Logistic Regression, Decision Tree, and Random Forest are applied.
+- Evaluation is done using accuracy, precision, recall, and F1-score.
+
+## Example Prediction
+The model takes patient health parameters and predicts:
+```
+The patient is at risk of heart disease.
+```
+
+## Future Enhancements
+- Implement deep learning models.
+- Improve feature selection techniques.
+- Deploy as a web application for real-time predictions.
+
+## Contributors
+- [Unnati Rawat](https://github.com/unnatirawat19)
